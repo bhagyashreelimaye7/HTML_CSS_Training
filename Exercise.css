@@ -1,0 +1,12 @@
+body {
+    background-image: url("bg.jpg");
+    background-color:#3B170B;
+}
+
+h1 {
+    color: #3B170B;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-size: 60px;
+    font-style: oblique;
+}
