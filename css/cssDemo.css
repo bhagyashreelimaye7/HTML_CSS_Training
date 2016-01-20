@@ -1,0 +1,146 @@
+header{
+
+
+    height:150px;
+    background-image: url(/Library/WebServer/Documents/html_css_training/img/header_1.png);
+}
+h1{
+  font-size: 35px;
+  font-style: normal;
+  margin-left: 50px;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  color: white;
+}
+h2{
+  font-size: 25px;
+  font-style: oblique;
+  margin-left: 70px;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  color: white;
+}
+h3{
+  font-size: 20px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+br {
+  line-height: 0.1em;
+}
+hr{
+  width="30%"
+}
+li{
+    margin-top: 20px;
+    list-style-type: none;
+    /*border:1px solid grey;*/
+}
+
+li:first-child {
+    margin-top:0;
+}
+
+section{
+  block:inline;
+}
+.summary,
+.preamble,
+.explanation,
+.participation,
+.benefits,
+.requirements{
+  margin-left:70px;
+  width: 60%;
+  padding :10px;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  line-height: 200%;
+}
+.main_supporting,
+.intro1{
+  width: 60%;
+  float: left;
+}
+
+.common{
+    background-color: #CEF6F5;
+    width: 1440px;
+}
+
+.participation,
+.requirements,
+.benefits{
+  /*background-color:#CEF6F5;*/
+  margin-right: 400px;
+  width: 550px;
+
+}
+
+aside{
+   margin-top:-150px;
+   margin-bottom: 300px;
+   padding-top:150px;
+  float: right;
+    width: 40%;
+    height:2585px;
+
+  /*background-color: #CEF6D8;
+  /*background-color: transparent;*/
+margin-bottom: 1em;
+background-color: #A9F5D0;
+    opacity: .4;
+
+}
+
+.design-name,
+.design-archives,
+.zen-resources,
+.design-selection{
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.design-archives{
+  margin-top: 70px;
+}
+.zen-resources{
+  margin-top: 170px;
+}
+
+a:link {
+    background-color: #A9F5F2;
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: #58D3F7;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+
+a:active {
+    background-color: #74DF00;
+}
+
+
+footer{
+  height:150px;
+  width:1440px;
+  background-color:#58D3F7;
+}
+.zen-validate-html{
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  margin-left: 500px;
+  font-size: 20px;
+}
+.zen-validate-css,
+.zen-license,
+.zen-accessibility,
+.zen-github{
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
