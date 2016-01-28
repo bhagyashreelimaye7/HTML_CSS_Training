@@ -1,0 +1,35 @@
+h1 {
+  color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0;
+}
+#tagline {
+color: #4c4a37;font-style:oblique; font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px; position:relative; left:130px;
+}
+h2 { color: #7c795d; font-family: 'Source Sans Pro', sans-serif; font-size: 28px; font-weight: 400; line-height: 32px; margin: 0 0 24px;
+}
+.date { color: #bbc3c8;display: inline-block; font-family: 'Georgia', serif; font-style: italic; font-size: 18px; line-height: 22px; position: absolute; bottom: -36px; }
+
+.menu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+#nav ul li{
+    display: inline;
+}
+.menu ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: #fff;
+background-color: #7c795d;
+}
+
+.menu ul li a:hover
+{
+color: #fff;
+background-color: #369;
+}
+
+
+

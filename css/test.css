@@ -1,22 +1,28 @@
 @import url(http://fonts.googleapis.com/css?family=Julius+Sans+One%7CLibre+Baskerville:400,400italic);
 
+
 header{
 
-
-    height:20vh;
+    position: relative;
+    height:30vh;
+    width: 100%;
     background-image: url(/Library/WebServer/Documents/html_css_training/img/header_1.png);
 }
 h1{
+  position: relative;
   font-size: 35px;
   font-style: normal;
-  margin-left: 50px;
+  left:20%;
+  top:25%;
   font-family: 'Julius Sans One', sans-serif;
   color: white;
 }
 h2{
+  position: relative;
+  left:20%;
+  top:30%;
   font-size: 25px;
   font-style: italic;
-  margin-left: 70px;
   font-weight: normal;
 
   color: white;
@@ -25,7 +31,7 @@ h3{
   font-size: 20px;
   font-style: normal;
   text-transform: uppercase;
-  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
 }
 br {
   line-height: 0.1em;
@@ -43,24 +49,35 @@ li:first-child {
     margin-top:0;
 }
 
-section{
-  block:inline;
+.intro{
+  position: relative;
+  width:100%;
+}
+.main-supporting{
+  position: relative;
+  width: 60%;
+  height:300vh;
 }
 
-  .summary,
+
+/*  .summary,
   .preamble,
   .explanation,
   .participation,
   .benefits,
   .requirements{
-    margin-left:70px;
+    padding-left: 20%;
+    padding-top: 5%;
     width: 60%;
     padding :10px;
     font-family: 'Libre Baskerville', CenturyGothic, AppleGothic, sans-serif;
     line-height: 200%;
   }
-  .main_supporting,
-  .intro1{
+
+  .intro,
+  .main_supporting
+  {
+    position: relative;
     width: 60%;
     float: left;
   }
@@ -72,14 +89,14 @@ section{
 .participation,
 .requirements,
 .benefits{
-  /*background-color:#CEF6F5;*/
+  /*background-color:#CEF6F5;
   margin-right: 400px;
   width: 550px;
 
 }
 
 aside{
-   /*margin-top:-170px;*/
+   /*margin-top:-170px;
    margin-top: -12%;
    margin-bottom: 300px;
    padding-top:150px;
@@ -88,7 +105,7 @@ aside{
     height:352vh;
 
   /*background-color: #CEF6D8;
-  /*background-color: transparent;*/
+  /*background-color: transparent;
   margin-bottom: 1em;
   background-color: #A9F5D0;
       opacity: .4;
@@ -140,7 +157,7 @@ aside{
   .benefits,
   .requirements{
     margin-left:70px;
-    /*width: 100%;*/
+    /*width: 100%;
     padding :10px;
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     line-height: 200%;
@@ -158,7 +175,7 @@ aside{
   .participation,
   .requirements,
   .benefits{
-    /*background-color:#CEF6F5;*/
+    /*background-color:#CEF6F5;
     margin-right: 0;
     margin-left: 0;
     width:80%;
@@ -168,7 +185,7 @@ aside{
 
   }
   aside{
-   /*margin-top:-170px;*/
+   /*margin-top:-170px;
    margin-top: -12%;
    margin-bottom: 300px;
    padding-top:150px;
@@ -176,7 +193,7 @@ aside{
     height:100%;
 
   /*background-color: #CEF6D8;
-  /*background-color: transparent;*/
+  /*background-color: transparent;
     margin-bottom: 1em;
     background-color: #A9F5D0;
         opacity: .4;
@@ -244,6 +261,11 @@ div[role=navigation]{
   font-family: 'Julius Sans One', sans-serif;
   font-size: 20px;
 }
+
+#summ1{
+  left:30%;
+}
+*/
 
 
 

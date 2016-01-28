@@ -1,0 +1,26 @@
+.design-selection{
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  margin-left: 50px;
+  margin-top: -20%%;
+}
+aside{
+   /*margin-top:-170px;*/
+   margin-top: -0.1%;
+   margin-bottom: 300px;
+   padding-top:150px;
+  float: right;
+    width: 40%;
+    height:408vh;
+
+  /*background-color: #CEF6D8;
+  /*background-color: transparent;*/
+margin-bottom: 1em;
+background-color: #A9F5D0;
+    opacity: .4;
+
+}
+
+.common{
+    background-color: #CEF6F5;
+    width: 167%;
+}

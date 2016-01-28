@@ -1,7 +1,7 @@
 header{
 
 
-    height:150px;
+    height:20vh;
     background-image: url(/Library/WebServer/Documents/html_css_training/img/header_1.png);
 }
 h1{
@@ -63,7 +63,7 @@ section{
 
 .common{
     background-color: #CEF6F5;
-    width: 1440px;
+    width: 200%;
 }
 
 .participation,
@@ -76,12 +76,13 @@ section{
 }
 
 aside{
-   margin-top:-150px;
+   /*margin-top:-170px;*/
+   margin-top: -12%;
    margin-bottom: 300px;
    padding-top:150px;
   float: right;
     width: 40%;
-    height:2585px;
+    height:315vh;
 
   /*background-color: #CEF6D8;
   /*background-color: transparent;*/
@@ -97,14 +98,14 @@ background-color: #A9F5D0;
 .design-selection{
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   margin-left: 50px;
-  margin-top: 20px;
+  margin-top: 7%;
 }
 
 .design-archives{
-  margin-top: 70px;
+  margin-top: 7%;
 }
 .zen-resources{
-  margin-top: 170px;
+  margin-top: 30%;
 }
 
 a:link {
