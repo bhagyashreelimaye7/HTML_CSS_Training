@@ -1,0 +1,43 @@
+#chess div{
+     width:80px;height:80px;border:1px solid black;
+     float: left;
+}
+
+
+#chess div:nth-child(1), /* first row */
+#chess div:nth-child(3),
+#chess div:nth-child(5),
+#chess div:nth-child(7),
+#chess div:nth-child(10), /* second row */
+#chess div:nth-child(12),
+#chess div:nth-child(14),
+#chess div:nth-child(16),
+#chess div:nth-child(17), /* third row */
+#chess div:nth-child(19),
+#chess div:nth-child(21),
+#chess div:nth-child(23),
+#chess div:nth-child(26), /* forth row */
+#chess div:nth-child(28),
+#chess div:nth-child(30),
+#chess div:nth-child(32),
+#chess div:nth-child(33), /* fifth row */
+#chess div:nth-child(35),
+#chess div:nth-child(37),
+#chess div:nth-child(39),
+#chess div:nth-child(42), /* sixth row */
+#chess div:nth-child(44),
+#chess div:nth-child(46),
+#chess div:nth-child(48),
+#chess div:nth-child(49), /* seventh row */
+#chess div:nth-child(51),
+#chess div:nth-child(53),
+#chess div:nth-child(55),
+#chess div:nth-child(58), /* eighth row */
+#chess div:nth-child(60),
+#chess div:nth-child(62),
+#chess div:nth-child(64){
+    background-color: #000;
+}
+#chess div:nth-of-type(8n+1){
+    clear:left;
+}
