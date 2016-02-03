@@ -1,0 +1,28 @@
+table {
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+tr{
+  border-bottom: 1px solid;
+}
+th,
+td {
+  /*padding: 1px 1px;*/
+
+  border-left: none;
+  border-right: none;
+  border-top:2px;
+}
+
+thead {
+  background: #f0f0f2;
+  color: black;
+  font-size: 14px;
+}
+tbody td:nth-child(1) {
+  background: #f0f0f2;
+}
+tbody td{
+   text-align: center;
+}
