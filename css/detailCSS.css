@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Julius+Sans+One%7CLibre+Baskerville:400,400italic);
 .page-wrapper{
   position: relative;
-  background: linear-gradient(to right, #FFFFFF,#FFFFFF,#A9D273 120%, #A9D273)100%;
+  /*background: linear-gradient(to right, #FFFFFF,#FFFFFF,#A9D273 120%, #A9D273)100%;*/
+  background: linear-gradient(to right, #ffffff  0%, #ffffff  66%, #e5ede8  66%, #e5ede8  100%);
 }
 .intro{
   position: relative;
@@ -22,7 +23,8 @@ header{
 
   position: relative;
   height: 30vh;
-  background-image: url(../img/huntington.jpg);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.0) 66%, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.2) 20%), url("../img/gridlines.png"), url("../img/huntington.jpg") no-repeat;
+  /*background-image: url(../img/huntington.jpg);*/
 
 }
 .header{
@@ -30,7 +32,7 @@ header{
 }
 
 hr{
-  width: 30%;
+  width: 25%;
 }
 
 
@@ -50,8 +52,10 @@ hr{
   font-style: normal;
   font-weight: 10px;
   left:73%;
-  top:35%;
+  top:20%;
   font-family: 'Julius Sans One', sans-serif;
+  padding: 1% 2% 1% 2%;
+  background-color: rgba(255,255,255,0.2);
   color: white;
 }
 
@@ -99,8 +103,8 @@ span{
 
 .summary{
   position: relative ;
-  width:70%;
-  padding-left: 30%;
+  width:80%;
+  padding-left: 20%;
   padding-top: 10%;
   font-family: 'Libre Baskerville', sans-serif;
   line-height: 225%;
@@ -109,8 +113,8 @@ span{
 }
 .preamble{
   position: relative ;
-  width:70%;
-  padding-left: 30%;
+  width:80%;
+  padding-left: 20%;
   padding-top: 2%;
   font-size: 80%;
   font-family: 'Libre Baskerville', sans-serif;
@@ -118,8 +122,8 @@ span{
 }
 .explanation{
   position: relative ;
-  width:70%;
-  padding-left: 30%;
+  width:80%;
+  padding-left: 20%;
   padding-top: 2%;
   font-size: 80%;
   font-family: 'Libre Baskerville', sans-serif;
@@ -128,16 +132,16 @@ span{
 
 .participation{
   position: relative ;
-  background: url('../img/bamboo.jpg'),#BDD8D0;
+  background: url('../img/bamboo.jpg'),rgba(138,188,159,0.4);
   z-index: 1;
   width: 166.5%;
 }
 
 .inner-participation{
   position: relative ;
-  width:43%;
+  width:49%;
   margin:top:2%;
-  padding-left: 18%;
+  padding-left: 12%;
   padding-top: 2%;
   font-size: 80%;
   font-family: 'Libre Baskerville', sans-serif;
@@ -147,16 +151,16 @@ span{
 
 .benefits{
   position: relative ;
-  background: url('../img/bamboo.jpg'),#BDD8D0;
+  background: url('../img/bamboo.jpg'),rgba(138,188,159,0.4);
   z-index: 1;
   width: 166.5%;
 }
 
 .inner-benefit{
   position: relative ;
-  width:43%;
+  width:49%;
   margin:top:2%;
-  padding-left: 18%;
+  padding-left: 12%;
   padding-top: 2%;
   font-size: 80%;
   font-family: 'Libre Baskerville', sans-serif;
@@ -166,8 +170,8 @@ span{
 
 .requirements{
   position: relative ;
-  width:70%;
-  padding-left: 30%;
+  width:80%;
+  padding-left: 20%;
   padding-top: 3%;
   font-size: 80%;
   font-family: 'Libre Baskerville', sans-serif;
@@ -256,6 +260,36 @@ footer{
 
 
 @media screen and (min-width: 320px) and (max-width: 640px){
+
+  header{
+
+  position: relative;
+  height: 30vh;
+
+  background-image: url(../img/huntington.jpg);
+
+}
+
+h1{
+  position: relative;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 10px;
+  left:10%;
+  padding-top: 5%;
+
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+}
+h2{
+  position: relative;
+  left:20%;
+  top:50%;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: lighter;
+  color: white;
+}
   .page-wrapper{
     position: relative;
     background: white;
@@ -289,8 +323,8 @@ footer{
     font-size: 15px;
     font-style: normal;
     font-weight: 10px;
-    top:45%;
-    left:55%;
+    top:50%;
+    left:51%;
     font-family: 'Julius Sans One', sans-serif;
     color: white;
   }
@@ -333,7 +367,7 @@ footer{
     font-size: 80%;
     font-family: 'Libre Baskerville', sans-serif;
     line-height: 225%;
-    background: url('../img/bamboo.jpg'),#BDD8D0;
+    background: url('../img/bamboo.jpg'),#C7DCCF;
     z-index: 1;
 }
 
@@ -357,7 +391,7 @@ footer{
     font-size: 80%;
     font-family: 'Libre Baskerville', sans-serif;
     line-height: 225%;
-    background: url('../img/bamboo.jpg'),#BDD8D0;
+    background: url('../img/bamboo.jpg'),#C7DCCF;
     z-index: 1;
 }
 
