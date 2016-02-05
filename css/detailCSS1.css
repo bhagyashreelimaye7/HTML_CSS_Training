@@ -1,0 +1,211 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One%7CLibre+Baskerville:400,400italic);
+.page-wrapper{
+  position: relative;
+  background: linear-gradient(to right, #FFFFFF,#FFFFFF,#A9D273 120%, #A9D273)100%;
+}
+.intro{
+  position: relative;
+  float:left;
+  width:60%;
+  display: block;
+  z-index: 1;
+}
+.main-supporting{
+  position: relative;
+  float:left;
+  width: 60%;
+  display:block;
+  z-index: 1;
+}
+
+header{
+  position: relative;
+  top:0;
+  height: 30vh;
+  background-image: url(/Library/WebServer/Documents/html_css_training/img/huntington.jpg);
+
+}
+
+.link{
+  position: relative;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 10px;
+  left:73%;
+  top:35%;
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+}
+
+h1{
+  position: relative;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 10px;
+  left:20%;
+  top:25%;
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+}
+h2{
+  position: relative;
+  left:20%;
+  top:30%;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: lighter;
+  color: white;
+}
+h3{
+  font-size: 20px;
+  font-style: normal;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+li{
+    margin-top: 3%;
+    list-style-type: none;
+    /*border:1px solid grey;*/
+}
+span{
+  font-style: italic;
+}
+
+.summary{
+  position: relative ;
+  width:70%;
+  padding-left: 30%;
+  padding-top: 10%;
+  font-family: 'Libre Baskerville', sans-serif;
+  line-height: 225%;
+  font-size: 80%;
+
+}
+.preamble{
+  position: relative ;
+  width:70%;
+  padding-left: 30%;
+  padding-top: 2%;
+  font-size: 80%;
+  font-family: 'Libre Baskerville', sans-serif;
+  line-height: 225%;
+}
+.explanation{
+  position: relative ;
+  width:70%;
+  padding-left: 30%;
+  padding-top: 2%;
+  font-size: 80%;
+  font-family: 'Libre Baskerville', sans-serif;
+  line-height: 225%;
+}
+
+.participation{
+  position: relative ;
+  width:70%;
+  margin:top:5%;
+  padding-left: 30%;
+  padding-top: 5%;
+  font-size: 80%;
+  font-family: 'Libre Baskerville', sans-serif;
+  line-height: 225%;
+  background: #BDD8D0;
+  z-index: 1;
+}
+
+.benefits{
+  position: relative ;
+  width:70%;
+  padding-left: 30%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  font-size: 80%;
+  font-family: 'Libre Baskerville', sans-serif;
+  line-height: 225%;
+  background: #BDD8D0;
+  z-index: 1;
+}
+
+.requirements{
+  position: relative ;
+  width:70%;
+  padding-left: 30%;
+  padding-top: 2%;
+  font-size: 80%;
+  font-family: 'Libre Baskerville', sans-serif;
+  line-height: 225%;
+}
+
+.aside{
+  position: relative;
+  float: right;
+  width:30%;
+  background-color: #C9E4DB;
+}
+.wrapper{
+  position: relative;
+}
+.design-selection{
+  position: relative;
+  background: linear-gradient(to right, #FFFFFF,#FFFFFF,#A9D273 120%, #A9D273)100%;
+  padding-top: 3%;
+}
+
+.zen-resources{
+  position: relative;
+  padding-top: 8%;
+  background: linear-gradient(to right, #FFFFFF,#FFFFFF,#A9D273 120%, #A9D273)100%;
+}
+
+.navigation{
+  position: relative;
+  left: 14%;
+}
+
+footer{
+  position: relative;
+  margin-top: 50%;
+  width: 100%;
+  display: block;
+  height:30vh;
+  clear: both;
+  background-image: url(/Library/WebServer/Documents/html_css_training/img/koi.jpg);
+}
+
+.contentinfo{
+  position: relative;
+  left:10%;
+  top:25%;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: lighter;
+  color: white;
+}
+
+.lower{
+  position: relative;
+  left:0%;
+  top:70%;
+  width:100%;
+  height:40%;
+  background-color: #13523D;
+}
+.zen-validate-html,
+.zen-validate-css,
+.zen-license,
+.zen-github,
+.zen-accessibility{
+  position: relative;
+  left:30%;
+  top:20%;
+  margin:2%;
+  font-family: 'webfontregular', sans-serif;
+  color: white;
+  font-size: 350%;
+}
+

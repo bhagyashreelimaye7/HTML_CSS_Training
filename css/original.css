@@ -22,7 +22,7 @@ header{
 
   position: relative;
   height: 30vh;
-  background-image: url(../img/huntington.jpg);
+  background-image: url(/Library/WebServer/Documents/html_css_training/img/huntington.jpg);
 
 }
 .header{
@@ -35,16 +35,6 @@ hr{
 
 
 .link{
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 10px;
-  left:73%;
-  top:35%;
-  font-family: 'Julius Sans One', sans-serif;
-  color: white;
-}
-
-.link1{
   position: relative;
   font-size: 20px;
   font-style: normal;
@@ -61,8 +51,7 @@ h1{
   font-style: normal;
   font-weight: 10px;
   left:20%;
-  padding-top: 5%;
-
+  top:45%;
   font-family: 'Julius Sans One', sans-serif;
   color: white;
 }
@@ -128,7 +117,7 @@ span{
 
 .participation{
   position: relative ;
-  background: url('../img/bamboo.jpg'),#BDD8D0;
+  background: #BDD8D0;
   z-index: 1;
   width: 166.5%;
 }
@@ -142,12 +131,13 @@ span{
   font-size: 80%;
   font-family: 'Libre Baskerville', sans-serif;
   line-height: 225%;
+  background: #BDD8D0;
   z-index: 1;
 }
 
 .benefits{
   position: relative ;
-  background: url('../img/bamboo.jpg'),#BDD8D0;
+  background: #BDD8D0;
   z-index: 1;
   width: 166.5%;
 }
@@ -161,6 +151,7 @@ span{
   font-size: 80%;
   font-family: 'Libre Baskerville', sans-serif;
   line-height: 225%;
+  background: #BDD8D0;
   z-index: 1;
 }
 
@@ -185,18 +176,17 @@ span{
 }
 .design-selection{
   position: relative;
-
+  background: linear-gradient(to right, #FFFFFF,#FFFFFF,#A9D273 120%, #A9D273)100%;
   padding-top: 3%;
 }
 
 .zen-resources{
-    position: absolute;
-    top: 109.5%;
-    padding-top: 14%;
-    left: 63%;
-    width: 37%;
-    height: 59.5%;
-
+ position: absolute;
+    padding-top: 8%;
+    left: 66%;
+    width: 34%;
+    height: 62%;
+    background: linear-gradient(to right, #FFFFFF -32%,#FFFFFF -101%,#A9D273 177%, #A9D273)200%;
     z-index: 1;
 }
 
@@ -213,13 +203,13 @@ footer{
   display: block;
   height:30vh;
   clear: both;
-  background-image: url(../img/koi.jpg);
+  background-image: url(/Library/WebServer/Documents/html_css_training/img/koi.jpg);
 
 }
 
 .contentinfo{
   position: relative;
-  left:15%;
+  left:10%;
   top:25%;
   font-size: 25px;
   font-style: italic;
@@ -275,16 +265,6 @@ footer{
     z-index: 1;
   }
   .link{
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 10px;
-    top:45%;
-    left:55%;
-    font-family: 'Julius Sans One', sans-serif;
-    color: white;
-  }
-
-  .link1{
     position: relative;
     font-size: 15px;
     font-style: normal;
@@ -294,7 +274,6 @@ footer{
     font-family: 'Julius Sans One', sans-serif;
     color: white;
   }
-
   .summary{
   position: relative ;
   width:70%;
@@ -325,51 +304,29 @@ footer{
 }
 
 .participation{
-  position: relative;
-    width: 100%;
-    margin: top:5%;
-    padding-left: 15%;
-    padding-top: 5%;
-    font-size: 80%;
-    font-family: 'Libre Baskerville', sans-serif;
-    line-height: 225%;
-    background: url('../img/bamboo.jpg'),#BDD8D0;
-    z-index: 1;
-}
-
-.inner-participation{
-  position: relative;
-    width: 73%;
-    padding-left: 0%;
-    padding-top: 2%;
-    font-size: 100%;
-    font-family: 'Libre Baskerville', sans-serif;
-    line-height: 225%;
-    z-index: 1;
+  position: relative ;
+  width:70%;
+  margin:top:5%;
+  padding-left: 15%;
+  padding-top: 5%;
+  font-size: 80%;
+  font-family: 'Libre Baskerville', sans-serif;
+  line-height: 225%;
+  background: #BDD8D0;
+  z-index: 1;
 }
 
 .benefits{
-  position: relative;
-    width: 100%;
-    margin: top:5%;
-    padding-left: 15%;
-    padding-top: 5%;
-    font-size: 80%;
-    font-family: 'Libre Baskerville', sans-serif;
-    line-height: 225%;
-    background: url('../img/bamboo.jpg'),#BDD8D0;
-    z-index: 1;
-}
-
-.inner-benefit{
-    position: relative;
-    width: 73%;
-    padding-left: 0%;
-    padding-top: 2%;
-    font-size: 100%;
-    font-family: 'Libre Baskerville', sans-serif;
-    line-height: 225%;
-    z-index: 1;
+  position: relative ;
+  width:70%;
+  padding-left: 15%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  font-size: 80%;
+  font-family: 'Libre Baskerville', sans-serif;
+  line-height: 225%;
+  background: #BDD8D0;
+  z-index: 1;
 }
 
 .requirements{
@@ -386,7 +343,7 @@ footer{
     position: relative;
     float: right;
     width:100%;
-
+    background-color: #C9E4DB;
   }
 
   .design-selection{
@@ -394,13 +351,11 @@ footer{
     /*background: linear-gradient(to right, #FFFFFF,#FFFFFF,#A9D273 120%, #A9D273)100%;*/
 
     padding-top: 10%;
-    left:-1%;
   }
 
 .zen-resources{
     position: relative;
     padding-top: 8%;
-    left:30%;
     /*background: linear-gradient(to right, #FFFFFF,#FFFFFF,#A9D273 120%, #A9D273)100%;*/
   }
 
@@ -411,7 +366,7 @@ footer{
   display: block;
   height:30vh;
   clear: both;
-  background-image: url(../img/koi.jpg);
+  background-image: url(/Library/WebServer/Documents/html_css_training/img/koi.jpg);
 
 }
 .zen-validate-html,
@@ -420,20 +375,11 @@ footer{
 .zen-github,
 .zen-accessibility{
   position: relative;
-  left:5%;
+  left:12%;
   top:20%;
   margin:2%;
   font-family: 'webfontregular', sans-serif;
   color: white;
   font-size: 350%;
-}
-.contentinfo{
-  position: relative;
-  left:0%;
-  top:25%;
-  font-size: 25px;
-  font-style: italic;
-  font-weight: lighter;
-  color: white;
 }
 }
