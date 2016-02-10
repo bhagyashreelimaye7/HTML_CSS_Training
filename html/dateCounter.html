@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <h1> Date Difference Calculator </h1>
+  <link rel="stylesheet" type="text/css" href="../CSS/dateCounter.css"/>
+  <script src="../javaScript/dateCounter.js" type="text/javascript"></script>
+</head>
+<body>
+  <table>
+    <tr>
+      <th> <input type="submit" id="start" value="Start" onclick="start()"> </th>
+      <th><input type="reset" id="reset" onclick="reset()"></th>
+    </tr>
+    <tr>
+      <td>Enter the date </td>
+      <td> <input type="date" id="date" placeholder="dd/mm/yyyy"></td>
+    </tr>
+    <tr>
+      <td>Difference in days</td>
+      <td> <input type="text" id="days" readonly></td>
+    </tr>
+    <tr>
+      <td>Difference in hours</td>
+      <td> <input type="text" id="hours" readonly></td>
+    </tr>
+     <tr>
+      <td>Difference in minutes </td>
+      <td> <input type="text" id="min" readonly></td>
+    </tr>
+  </table>
+  <div id="err"></div>
+</body>
+</html>

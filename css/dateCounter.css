@@ -1,0 +1,54 @@
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+h1{
+  color: #9A1205;
+    margin-left: 38%;
+    margin-top: 7%;
+    margin-bottom: -10%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+td{
+  font-size: 20px;
+  color: #9A1205;
+}
+input[type="text"],[type="date"]{
+  font-size: 15px;
+  text-align: center;
+  color: #9A1205;
+}
+
+#start{
+  background-color: #E48681;
+  border-color: rgba(0,0,0,0.3);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+  color: #FFF;
+  width:30%;
+  font-size: 20px;
+
+}
+
+#reset{
+  background-color: #E48681;
+  border-color: rgba(0,0,0,0.3);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+  color: #FFF;
+  width:30%;
+  font-size: 20px;
+}
+table{
+  margin-top: 15%;
+  background-color: #1DADD0;
+}
+#err{
+  color: red;
+}
