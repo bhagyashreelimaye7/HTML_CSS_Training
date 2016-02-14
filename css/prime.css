@@ -1,0 +1,29 @@
+input[type="text"]{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    height: 15%;
+    width: 20%;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: beige;
+    font-family: fantasy;
+}
+
+#output{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    color: cornflowerblue;
+    font-size: 30px;
+    font-family: fantasy;
+}
+h1{
+    position: absolute;
+    left: 34%;
+    top: 10%;
+    font-family: fantasy;
+    color: cadetblue;
+}
+}
