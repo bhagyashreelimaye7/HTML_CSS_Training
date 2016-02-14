@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title></title>
+  <script src="../javaScript/mortgage.js"></script>
+</head>
+<body>
+ Loan Amount:- <input type="text" id="amt"><br>
+  Interest Rate:- <input type="text" id="intRate">Compounded
+  <select id="rate">
+  	<option>yearly</option>
+  	<option>monthly</option>
+  	<option>daily</option>
+  </select><br>
+
+  Number of years :- <input type="text" id="tenure"><br>
+  <input type="submit" onclick="GetSimpleInterest()"  value="Calculate Interest"><br>
+  <hr>
+  Total Amount<input type=text id="totalAmount" disabled><br>
+  Interest <input type=text id="interest" disabled><br>
+  Monthly Paymemt<input type=text id="monthlyPayment" disabled><br>
+  <hr>
+</body>
+</html>
