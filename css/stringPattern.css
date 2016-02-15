@@ -1,0 +1,48 @@
+#userInput{
+  position: absolute;
+    left: 40%;
+    top: 35%;
+    font-size: 22px;
+    color: darkgreen;
+}
+input[type="submit"]{
+position: absolute;
+    left: 46%;
+    top: 45%;
+    background-color: cadetblue;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type="text"]{
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px;
+  color:darkgreen ;
+  background-color: beige;
+}
+#output{
+  position: absolute;
+        left: 40.5%;
+    top: 55%;
+    width: 20%;
+    height: 6%;
+    background-color: lightgoldenrodyellow;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: darkgreen;
+}
+h1{
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    color: darkolivegreen;
+}
