@@ -34,6 +34,7 @@ select,input[type="text"]{
   text-align: center;
   font-size: 10px;
   border-radius: 5px;
+  color: #1F5C95;
   background-color: beige;
 }
 select{
