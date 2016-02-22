@@ -24,6 +24,7 @@
    document.getElementById("days").value= diffDays;
    document.getElementById("hours").value= diffHours;
    document.getElementById("min").value= diffMin;
+   document.getElementById('err').innerHTML = "";
    }
    else{
     document.getElementById('err').innerHTML = "<span>Date cannot be blank</span>";
