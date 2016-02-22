@@ -26,7 +26,7 @@
    document.getElementById("min").value= diffMin;
    }
    else{
-    document.getElementById(err).value="Date cannot be blank";
+    document.getElementById('err').innerHTML = "<span>Date cannot be blank</span>";
    }
 
   }
