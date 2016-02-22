@@ -1,4 +1,7 @@
 var flag=1;
+var modWord="";
+var tempStore="";
+
 
 function Trim()
 {
@@ -19,71 +22,91 @@ function Trim()
 function FarthestSimilarChars(word,start,end)
 {
 
-	var startIndexArray=Array();
-	var endIndexArray=Array();
-	var charsLength=Array();
-	var ctr=0;
 	var tempStart=start;
 	var tempEnd=end;
 
+	var ctr=-1;
 
-	for(;start<word.length;start++)
+	while(ctr!=0)
 	{
 
-			for(end=tempEnd;end>start;end--)
+
+
+			var startIndexArray=Array();
+			var endIndexArray=Array();
+			var charsLength=Array();
+			var ctr=0;
+
+
+
+			for(;start<word.length;start++)
 			{
 
-				//alert(start+","+end);
+					for(end=tempEnd;end>start;end--)
+					{
+
+						//alert(start+","+end);
 
 
 
-				if(word.charAt(start)==word.charAt(end))//identical detected
+						if(word.charAt(start)==word.charAt(end))//identical detected
+						{
+							//alert("yo==>"+start+","+end);
+							startIndexArray[ctr]=start;
+							endIndexArray[ctr]=end;
+							charsLength[ctr]=parseInt(end)-parseInt(start);
+							ctr++;
+
+						}
+
+
+					}
+
+			}
+
+
+
+
+
+			if(ctr!=0) //identicals exist
+			{
+				flag--;
+
+
+				var max=0;
+				var maxIndex=0;
+
+				for(var x=0;x<charsLength.length;x++)
 				{
-					//alert("yo==>"+start+","+end);
-					startIndexArray[ctr]=start;
-					endIndexArray[ctr]=end;
-					charsLength[ctr]=parseInt(end)-parseInt(start);
-					ctr++;
+
+
+					if(parseInt(charsLength[x])>parseInt(max))
+					{
+						max=charsLength[x];
+						maxIndex=x;
+					}
 
 				}
 
+				//got the largest identical string
+				//alert(  "The farthest identical text is "+ word.substring(startIndexArray[maxIndex],endIndexArray[maxIndex]+1)  );
 
+
+				 tempStart=startIndexArray[maxIndex]+1;
+				 tempEnd=endIndexArray[maxIndex]-1;
+
+				//FarthestSimilarChars(word, , )
+				continue;
 			}
 
-	}
+
+		}//while
 
 
-
-
-
-	if(ctr!=0) //identicals exist
-	{
-		flag--;
-
-
-		var max=0;
-		var maxIndex=0;
-
-		for(var x=0;x<charsLength.length;x++)
-		{
-
-
-			if(parseInt(charsLength[x])>parseInt(max))
-			{
-				max=charsLength[x];
-				maxIndex=x;
-			}
-
-		}
-
-		//got the largest identical string
-		//alert(  "The farthest identical text is "+ word.substring(startIndexArray[maxIndex],endIndexArray[maxIndex]+1)  );
-		FarthestSimilarChars(word, startIndexArray[maxIndex]+1, endIndexArray[maxIndex]-1)
-
-	}
-	else // no identicals
-	{
-		flag++;
+	//after loop break ..
+	//else // no identicals
+	//{
+		//flag++;
 		//alert(flag)
 
 		//alert(  "No identical string reached: "+ word.substring(tempStart,tempEnd+1)  );
@@ -102,21 +125,28 @@ function FarthestSimilarChars(word,start,end)
 		if(newText.indexOf('_') > -1) // no underscore
 		{
 			 newText = newText.substring(0, newText.indexOf('_'));
-			 alert(  "New String after removal of underscore: "+newText );
+			// alert(  "New String after removal of underscore: "+newText );
 		}
 
 
-		if(flag<=1)
+
+		if(modWord!=newText)
 		{
+			modWord=newText;
 			FarthestSimilarChars(newText, 0, newText.length-1);
 		}
-		else{
-			document.getElementById("output").innerHTML=newText;
-		}
-		//alert(  "The final String is: "+newText );
+		else
+		document.getElementById("output").innerHTML=newText;
 
 
 
-	}
+	//}
+
+
+
+
+
+
+
 
 }
