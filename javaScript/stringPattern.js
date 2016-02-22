@@ -102,7 +102,7 @@ function FarthestSimilarChars(word,start,end)
 		if(newText.indexOf('_') > -1) // no underscore
 		{
 			 newText = newText.substring(0, newText.indexOf('_'));
-			 alert(  "New String after removal of underscore: "+newText );
+			 //alert(  "New String after removal of underscore: "+newText );
 		}
 
 
