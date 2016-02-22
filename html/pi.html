@@ -4,11 +4,11 @@
      <link rel="stylesheet" type="text/css" href="../css/pi.css"/>
       <script type="text/javascript">
             var pi=22/7;
-            document.getElementById('err').innerHTML = "Hey...how you doing? ;)";
-            document.getElementById('ans').innerHTML = "No answer to display right now";
+           // document.getElementById('err').innerHTML = "Hey...how you doing? ;)";
+           // document.getElementById('ans').innerHTML = "No answer to display right now";
             function piValue() {
                var number=document.getElementById("no").value;
-               if(isNaN(number) || number<0 || number>15){
+               if(isNaN(number) || number<0 || number>15 || number == ""){
                   document.getElementById('err').innerHTML = "The number format is wrong or the number should be greater than 0 and less than 15";
                   /*alert("The number format is wrong or the number should be greater than 0");*/
                   document.getElementById("no").value="";
