@@ -1,22 +1,36 @@
+.table1{
+
+}
+.table2{
+
+}
+h1{
+  color: #007509;
+  position: relative;
+  padding-left:40%;
+  top:5%;
+}
 #userInput{
   position: absolute;
-  left: 10%;
-  top:20%;
+  left: 40%;
+  top:15%;
   color: #1F5C95;
   font-size: 20px;
+  width: 500px;
+  clear: both;
 }
 #output{
   position: absolute;
-  left: 20%;
-  top: 50%;
+  left: 40%;
+  top: 60%;
   color: #1F5C95;
   font-size: 20px;
 }
 
 input[type="submit"]{
     position: absolute;
-    top: 120px;
-    left: 40%;
+    top: 105%;
+    left: 5%;
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -36,6 +50,7 @@ select,input[type="text"]{
   border-radius: 5px;
   color: #1F5C95;
   background-color: beige;
+
 }
 select{
     background: transparent;
@@ -45,5 +60,8 @@ select{
     line-height: 1;
     height: 34px;
     color: #1F5C95;
+}
+tr{
+  text-align: left;
 }
 
