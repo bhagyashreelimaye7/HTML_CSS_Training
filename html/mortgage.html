@@ -5,23 +5,49 @@
   <link rel="stylesheet" type="text/css" href="../css/mortgage.css"/>
 </head>
 <body>
+<h1>Calculate Interest </h1>
 <div id="userInput">
- Loan Amount:- <input type="text" id="amt">
-  Interest Rate:- <input type="text" id="intRate">Compounded
+  <table class="table1">
+  <tr>
+    <td>Loan Amount:- <input type="text" id="amt"></td>
+  </tr>
+  <tr>
+    <td>Interest Rate:- <input type="text" id="intRate"></td>
+  </tr>
+  <tr>
+    <td>
+      Compounded
 
-  <select id="rate">
-  	<option>yearly</option>
-  	<option>monthly</option>
-  	<option>daily</option>
-  </select>
-
-  Number of years :- <input type="text" id="tenure"><br>
-  <input type="submit" onclick="GetSimpleInterest()"  value="Calculate Interest">
+      <select id="rate">
+      	<option>yearly</option>
+      	<option>monthly</option>
+      	<option>daily</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Number of years :- <input type="text" id="tenure"><br>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="submit" onclick="GetSimpleInterest()"  value="Calculate Interest">
+    </td>
+  </tr>
+  </table>
 </div>
 <div id="output">
-  Total Amount<input type=text id="totalAmount" disabled><span>
-  Interest <input type=text id="interest" disabled><span>
-  Monthly Paymemt<input type=text id="monthlyPayment" disabled>
+  <table class="table2">
+  <tr>
+    <td>Total Amount<input type=text id="totalAmount" disabled><span></span></td>
+  </tr>
+  <tr>
+    <td>Interest <input type=text id="interest" disabled></td>
+  </tr>
+  <tr>
+    <td>Monthly Paymemt<input type=text id="monthlyPayment" disabled></td>
+  </tr>
 </div>
 </body>
 </html>

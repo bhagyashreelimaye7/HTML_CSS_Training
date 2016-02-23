@@ -26,8 +26,6 @@ function GetSimpleInterest()
 	document.getElementById("totalAmount").value=amount;
 	document.getElementById("monthlyPayment").value=amount/(tenure *12);
 
-	alert("hi"+amount+" "+rate+" "+years)
-
 
 }
 
