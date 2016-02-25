@@ -19,7 +19,7 @@ function GetSimpleInterest()
 
 
 
-	var interest=( principle*rate*tenure ) /100;
+	var interest=principle*Math.pow(1 +(rate/52),tenure/52);
 	var amount=principle+interest;
 
 	document.getElementById("interest").value=interest;
