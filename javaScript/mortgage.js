@@ -10,11 +10,11 @@ function GetSimpleInterest()
 
 	if(interestFrequency=="monthly")
 	{
-		rate*=12;
+		rate/=12;
 
 	}
 	if(interestFrequency=="daily")
-		rate*=12*31;
+		rate/=12*31;
 
 
 
